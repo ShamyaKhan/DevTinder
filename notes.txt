@@ -1,0 +1,16 @@
+Tech Planning:
+-> 2 microservices
+-> Frontend (react)
+-> Backend (node js, mongodb)
+
+LLD:
+-> DB design: 
+-> User: firstName, lastName, emailId, password, age, gender
+-> ConnectionRequest: fromUserId, toUserId, status (pending/accepted/rejected)
+-> API design: REST API
+-> CRUD operation
+
+Request Handler:
+-> res.send() will send the response and no more request handler will be executed
+-> It will only go to the next request handler if we call next()
+-> A server should listen to requests after connecting to database
