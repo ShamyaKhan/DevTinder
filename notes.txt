@@ -14,3 +14,7 @@ Request Handler:
 -> res.send() will send the response and no more request handler will be executed
 -> It will only go to the next request handler if we call next()
 -> A server should listen to requests after connecting to database
+-> Server cannot read json data by default
+
+Important:
+-> API level validation, DB level validation
