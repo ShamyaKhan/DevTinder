@@ -26,3 +26,4 @@ Important:
 -> For every request, the server will validate the token 
 -> To store the token and send it with every request, we use cookies
 -> When we log in, server sends the token inside a cookie
+-> When writing schema methods, never use arrow function
