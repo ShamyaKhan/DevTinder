@@ -1,0 +1,33 @@
+Tech Planning:
+-> 2 microservices
+-> Frontend (react)
+-> Backend (node js, mongodb)
+
+LLD:
+-> DB design: 
+-> User: firstName, lastName, emailId, password, age, gender
+-> ConnectionRequest: fromUserId, toUserId, status (pending/accepted/rejected)
+-> API design: REST API
+-> CRUD operation
+
+Request Handler:
+-> res.send() will send the response and no more request handler will be executed
+-> It will only go to the next request handler if we call next()
+
+
+Important:
+-> A server should listen to requests after connecting to database
+-> Server cannot read json data by default
+-> API level validation, DB level validation
+-> In TCP/IP protocol, we make an API call, get the data and the connection is closed
+-> When we log in, server generates a JWT and sends it back to user inside a cookie
+-> The user stores the JWT in browser
+-> Whenever the user will make an API call, the token will be sent along with the request 
+-> For every request, the server will validate the token 
+-> To store the token and send it with every request, we use cookies
+-> When we log in, server sends the token inside a cookie
+-> When writing schema methods, never use arrow function
+-> Create enum when we want to restrict user for some values
+-> DB indexing: query will be faster, DB will be optimized
+-> MongoDB automatically creates index for the field where unique: true
+-> Compound index: 
