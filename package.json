@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "devtinder-react",
   "private": true,
   "version": "0.0.0",
@@ -31,32 +30,5 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
     "vite": "^7.2.4"
-=======
-  "name": "devtinder",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/app.js",
-    "start": "node src/app.js"
-  },
-  "keywords": [
-    "nodejs",
-    "javascript"
-  ],
-  "author": "Shamya Khan",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^9.0.0",
-    "nodemon": "^3.1.11",
-    "validator": "^13.15.23"
->>>>>>> c20f0756261e7afb84fb899e4f1c94015d6e69ef
   }
 }
